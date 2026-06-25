@@ -1,0 +1,22 @@
+{
+  "name": "claude-mastery-docs",
+  "version": "1.0.0",
+  "description": "Mastering Claude — a practical handbook to use Claude for real work.",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "keywords": [
+    "claude",
+    "anthropic",
+    "ai",
+    "documentation",
+    "vitepress"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}

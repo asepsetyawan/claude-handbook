@@ -1,0 +1,44 @@
+/**
+ * Claude-inspired brand theme.
+ * Warm terracotta accent (#d97757) over VitePress defaults.
+ */
+
+:root {
+  --vp-c-brand-1: #c75f3f;
+  --vp-c-brand-2: #d97757;
+  --vp-c-brand-3: #e08a6c;
+  --vp-c-brand-soft: rgba(217, 119, 87, 0.14);
+
+  --vp-c-tip-1: var(--vp-c-brand-1);
+  --vp-c-tip-2: var(--vp-c-brand-2);
+  --vp-c-tip-soft: var(--vp-c-brand-soft);
+}
+
+.dark {
+  --vp-c-brand-1: #e08a6c;
+  --vp-c-brand-2: #d97757;
+  --vp-c-brand-3: #c75f3f;
+  --vp-c-brand-soft: rgba(217, 119, 87, 0.16);
+}
+
+/* Hero gradient using the brand color */
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #d97757 30%, #e0a07a);
+
+  --vp-home-hero-image-background-image: linear-gradient(
+    -45deg,
+    rgba(217, 119, 87, 0.45) 50%,
+    rgba(224, 160, 122, 0.45) 50%
+  );
+  --vp-home-hero-image-filter: blur(44px);
+}
+
+/* Slightly warmer, friendlier reading defaults */
+.vp-doc h2 {
+  border-top-color: var(--vp-c-divider);
+}
+
+.VPFeature .icon {
+  background-color: var(--vp-c-brand-soft);
+}
